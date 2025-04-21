@@ -1,7 +1,7 @@
 const { pool } = require("../config/db")
 
 class ProductoManufacturaModel {
-  // Obtener todos los productos de manufactura
+  // Obtener todos los productos de manufactura 
   async getAll() {
     try {
       const [rows] = await pool.query(`
